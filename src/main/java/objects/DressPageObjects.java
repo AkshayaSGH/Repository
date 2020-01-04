@@ -11,7 +11,7 @@ import org.testng.collections.Lists;
 public class DressPageObjects extends BasePage {
 	
 	@FindBy(xpath = "//a[@href='http://automationpractice.com/index.php?id_category=8&controller=category#size-s']")
-	private WebElement s;
+	private WebElement s123;
 	
 	@FindBy(xpath = "//a[@href='http://automationpractice.com/index.php?id_category=8&controller=category#size-m']")
 	private WebElement m;
