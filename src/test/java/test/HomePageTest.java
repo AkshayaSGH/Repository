@@ -18,7 +18,7 @@ public HomePageTest()
 }
 @Test
 public void verifyTab() {
-Assert.assertTrue(bp.elementFound(homepage.getWomen()), "Element not found");
+Assert.assertTrue(bp.elementFound(homepage.getWomen()), "ENF");
 Assert.assertTrue(bp.elementFound(homepage.getDress()), "Element not found");
 Assert.assertTrue(bp.elementFound(homepage.getTshirt()), "Element not found");
 }

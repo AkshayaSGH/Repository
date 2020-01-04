@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
-import object.BasePage;
+import objects.BasePage;
 import objects.DressPageObjects;
 import objects.HomePageObjects;
 
@@ -19,7 +19,7 @@ import objects.HomePageObjects;
 	public DressPageTest() {
 		dp = new DressPageObjects();
 		hp= new HomePageObjects();
-		bp=new BasePage();
+		bp = new BasePage();
 	}
 	int random = new Random().nextInt(50000);
 	String email="cartest"+ random + "@gmail.com";
