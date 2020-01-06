@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51227" started-at="2020-01-06T07:34:05Z" finished-at="2020-01-06T07:34:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51227" started-at="2020-01-06T07:34:05Z" finished-at="2020-01-06T07:34:56Z">
+      <class name="test.OrangeHRMTest">
+        <test-method status="PASS" signature="Launch()[pri:0, instance:test.OrangeHRMTest@61386958]" name="Launch" is-config="true" duration-ms="6816" started-at="2020-01-06T13:04:25Z" finished-at="2020-01-06T13:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:test.OrangeHRMTest@61386958]" name="VerifyLogin" duration-ms="4239" started-at="2020-01-06T13:04:32Z" data-provider="VerifyLogin" finished-at="2020-01-06T13:04:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="Launch()[pri:0, instance:test.OrangeHRMTest@61386958]" name="Launch" is-config="true" duration-ms="5588" started-at="2020-01-06T13:04:37Z" finished-at="2020-01-06T13:04:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:test.OrangeHRMTest@61386958]" name="VerifyLogin" duration-ms="1444" started-at="2020-01-06T13:04:42Z" data-provider="VerifyLogin" finished-at="2020-01-06T13:04:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adminn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="Launch()[pri:0, instance:test.OrangeHRMTest@61386958]" name="Launch" is-config="true" duration-ms="6030" started-at="2020-01-06T13:04:44Z" finished-at="2020-01-06T13:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:test.OrangeHRMTest@61386958]" name="VerifyLogin" duration-ms="2146" started-at="2020-01-06T13:04:50Z" data-provider="VerifyLogin" finished-at="2020-01-06T13:04:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+      </class> <!-- test.OrangeHRMTest -->
+      <class name="test.HomePageTest">
+        <test-method status="PASS" signature="verifyTab()[pri:0, instance:test.HomePageTest@3d1cfad4]" name="verifyTab" duration-ms="284" started-at="2020-01-06T13:04:23Z" finished-at="2020-01-06T13:04:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTab -->
+        <test-method status="PASS" signature="verifyUrl()[pri:0, instance:test.HomePageTest@3d1cfad4]" name="verifyUrl" duration-ms="2499" started-at="2020-01-06T13:04:23Z" finished-at="2020-01-06T13:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method status="PASS" signature="verifyAddToC()[pri:0, instance:test.HomePageTest@3d1cfad4]" name="verifyAddToC" is-config="true" duration-ms="4340" started-at="2020-01-06T13:04:52Z" finished-at="2020-01-06T13:04:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToC -->
+      </class> <!-- test.HomePageTest -->
+      <class name="test.DressPageTest">
+        <test-method status="PASS" signature="verifyChk()[pri:0, instance:test.DressPageTest@62230c58]" name="verifyChk" duration-ms="4731" started-at="2020-01-06T13:04:05Z" finished-at="2020-01-06T13:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChk -->
+        <test-method status="PASS" signature="verifyMatchr()[pri:0, instance:test.DressPageTest@62230c58]" name="verifyMatchr" duration-ms="2869" started-at="2020-01-06T13:04:10Z" finished-at="2020-01-06T13:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMatchr -->
+        <test-method status="PASS" signature="verifyNewsl()[pri:0, instance:test.DressPageTest@62230c58]" name="verifyNewsl" duration-ms="3765" started-at="2020-01-06T13:04:13Z" finished-at="2020-01-06T13:04:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewsl -->
+        <test-method status="PASS" signature="verifyProductd()[pri:0, instance:test.DressPageTest@62230c58]" name="verifyProductd" duration-ms="6415" started-at="2020-01-06T13:04:16Z" finished-at="2020-01-06T13:04:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductd -->
+      </class> <!-- test.DressPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

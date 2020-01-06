@@ -6,13 +6,11 @@ import java.sql.Driver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.collections.Lists;
 
 public class DressPageObjects extends BasePage {
 	
 	@FindBy(xpath = "//a[@href='http://automationpractice.com/index.php?id_category=8&controller=category#size-s']")
-	private WebElement size;
-	private WebElement s123456;
+	private WebElement s;
 
 	
 	@FindBy(xpath = "//a[@href='http://automationpractice.com/index.php?id_category=8&controller=category#size-m']")
